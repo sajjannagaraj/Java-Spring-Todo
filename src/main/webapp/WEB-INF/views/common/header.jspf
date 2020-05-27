@@ -1,0 +1,21 @@
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<html>
+<head>
+<title>Todo Application</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+
+<body>
+<img src="https://i.ibb.co/r555jww/img.png"  style="position: top;">
+	    <a href="/"  id="welcome" class="btn btn-info Disabled" style="background-color: #009da9; position: absolute; right: 15%; 
+    border-radius: 1px;">Welcome, ${name}!</a>
+    
+    <a href="/login" class="btn btn-info toHide" style="background-color: #009da9; position: absolute; right: 5%; 
+    border-radius: 1px;" id="loginButton" > Log In  </a>
+        <a href="/logout1" class="btn btn-info" style="background-color: #009da9; position: absolute; right: 5%; 
+    border-radius: 1px;" id="logoutButton" > Log Out  </a>
+     
+
+</body>
